@@ -1,0 +1,15 @@
+PODS:
+  - CVCalendar (1.6.0)
+  - Tactile (2.0)
+
+DEPENDENCIES:
+  - CVCalendar
+  - Tactile
+
+SPEC CHECKSUMS:
+  CVCalendar: d6da92b579dfc1e0939e324dfffd2e1045cf69b1
+  Tactile: 22d5686693be17568351b95aa83ef37457cd40f4
+
+PODFILE CHECKSUM: a8995cbe8d4e1ac02e89ba80602b0b03fa9fc727
+
+COCOAPODS: 1.2.1

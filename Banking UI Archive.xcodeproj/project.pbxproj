@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6843270C0F686CFA8B1F0EA8 /* Pods_Banking_UI_Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F171044EC94F47F5CE8747 /* Pods_Banking_UI_Archive.framework */; };
 		71C0AC732022EB3200AD6330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AC722022EB3200AD6330 /* AppDelegate.swift */; };
 		71C0AC752022EB3200AD6330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AC742022EB3200AD6330 /* ViewController.swift */; };
 		71C0AC782022EB3200AD6330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C0AC762022EB3200AD6330 /* Main.storyboard */; };
 		71C0AC7A2022EB3200AD6330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C0AC792022EB3200AD6330 /* Assets.xcassets */; };
 		71C0AC7D2022EB3200AD6330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C0AC7B2022EB3200AD6330 /* LaunchScreen.storyboard */; };
+		71C0AC892022EBB600AD6330 /* SBCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AC852022EBB500AD6330 /* SBCalendarView.swift */; };
+		71C0AC8A2022EBB600AD6330 /* SBCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AC862022EBB600AD6330 /* SBCalendarManager.swift */; };
+		71C0AC8B2022EBB600AD6330 /* SBCalendarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AC872022EBB600AD6330 /* SBCalendarButton.swift */; };
+		71C0AC8C2022EBB600AD6330 /* SBCalendarControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AC882022EBB600AD6330 /* SBCalendarControlView.swift */; };
+		71C0AC8E2022EC7500AD6330 /* KVCalendarGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AC8D2022EC7500AD6330 /* KVCalendarGlobals.swift */; };
+		71C0AC912022F54200AD6330 /* UIColor+KV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AC902022F54200AD6330 /* UIColor+KV.swift */; };
+		71C0AC962022FD2300AD6330 /* SBDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AC932022FD2300AD6330 /* SBDropdown.swift */; };
+		71C0AC972022FD2300AD6330 /* SBDropdownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AC942022FD2300AD6330 /* SBDropdownCell.swift */; };
+		71C0AC982022FD2300AD6330 /* SBStateLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AC952022FD2300AD6330 /* SBStateLineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AC614B5E2625768BCC8B613 /* Pods-Banking UI Archive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banking UI Archive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Banking UI Archive/Pods-Banking UI Archive.debug.xcconfig"; sourceTree = "<group>"; };
 		71C0AC6F2022EB3200AD6330 /* Banking UI Archive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banking UI Archive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C0AC722022EB3200AD6330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71C0AC742022EB3200AD6330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,17 @@
 		71C0AC792022EB3200AD6330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71C0AC7C2022EB3200AD6330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71C0AC7E2022EB3200AD6330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C0AC852022EBB500AD6330 /* SBCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCalendarView.swift; sourceTree = "<group>"; };
+		71C0AC862022EBB600AD6330 /* SBCalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCalendarManager.swift; sourceTree = "<group>"; };
+		71C0AC872022EBB600AD6330 /* SBCalendarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCalendarButton.swift; sourceTree = "<group>"; };
+		71C0AC882022EBB600AD6330 /* SBCalendarControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCalendarControlView.swift; sourceTree = "<group>"; };
+		71C0AC8D2022EC7500AD6330 /* KVCalendarGlobals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVCalendarGlobals.swift; sourceTree = "<group>"; };
+		71C0AC902022F54200AD6330 /* UIColor+KV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+KV.swift"; sourceTree = "<group>"; };
+		71C0AC932022FD2300AD6330 /* SBDropdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBDropdown.swift; sourceTree = "<group>"; };
+		71C0AC942022FD2300AD6330 /* SBDropdownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBDropdownCell.swift; sourceTree = "<group>"; };
+		71C0AC952022FD2300AD6330 /* SBStateLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBStateLineView.swift; sourceTree = "<group>"; };
+		8E7B737F0D8A8D21D9DDCE70 /* Pods-Banking UI Archive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banking UI Archive.release.xcconfig"; path = "Pods/Target Support Files/Pods-Banking UI Archive/Pods-Banking UI Archive.release.xcconfig"; sourceTree = "<group>"; };
+		B8F171044EC94F47F5CE8747 /* Pods_Banking_UI_Archive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Banking_UI_Archive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6843270C0F686CFA8B1F0EA8 /* Pods_Banking_UI_Archive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				71C0AC712022EB3200AD6330 /* Banking UI Archive */,
 				71C0AC702022EB3200AD6330 /* Products */,
+				DC40A899DBC3D92B04ACCBCB /* Pods */,
+				78A17B15EB13AEB02E85A62B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +79,9 @@
 		71C0AC712022EB3200AD6330 /* Banking UI Archive */ = {
 			isa = PBXGroup;
 			children = (
+				71C0AC922022FD1700AD6330 /* Dropdown */,
+				71C0AC8F2022F4DD00AD6330 /* Extensions */,
+				71C0AC842022EBA200AD6330 /* Calendar */,
 				71C0AC722022EB3200AD6330 /* AppDelegate.swift */,
 				71C0AC742022EB3200AD6330 /* ViewController.swift */,
 				71C0AC762022EB3200AD6330 /* Main.storyboard */,
@@ -64,6 +92,53 @@
 			path = "Banking UI Archive";
 			sourceTree = "<group>";
 		};
+		71C0AC842022EBA200AD6330 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				71C0AC872022EBB600AD6330 /* SBCalendarButton.swift */,
+				71C0AC882022EBB600AD6330 /* SBCalendarControlView.swift */,
+				71C0AC862022EBB600AD6330 /* SBCalendarManager.swift */,
+				71C0AC852022EBB500AD6330 /* SBCalendarView.swift */,
+				71C0AC8D2022EC7500AD6330 /* KVCalendarGlobals.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		71C0AC8F2022F4DD00AD6330 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				71C0AC902022F54200AD6330 /* UIColor+KV.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		71C0AC922022FD1700AD6330 /* Dropdown */ = {
+			isa = PBXGroup;
+			children = (
+				71C0AC932022FD2300AD6330 /* SBDropdown.swift */,
+				71C0AC942022FD2300AD6330 /* SBDropdownCell.swift */,
+				71C0AC952022FD2300AD6330 /* SBStateLineView.swift */,
+			);
+			path = Dropdown;
+			sourceTree = "<group>";
+		};
+		78A17B15EB13AEB02E85A62B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8F171044EC94F47F5CE8747 /* Pods_Banking_UI_Archive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC40A899DBC3D92B04ACCBCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AC614B5E2625768BCC8B613 /* Pods-Banking UI Archive.debug.xcconfig */,
+				8E7B737F0D8A8D21D9DDCE70 /* Pods-Banking UI Archive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71C0AC812022EB3200AD6330 /* Build configuration list for PBXNativeTarget "Banking UI Archive" */;
 			buildPhases = (
+				1EC33A8BF0818287AB7A2666 /* [CP] Check Pods Manifest.lock */,
 				71C0AC6B2022EB3200AD6330 /* Sources */,
 				71C0AC6C2022EB3200AD6330 /* Frameworks */,
 				71C0AC6D2022EB3200AD6330 /* Resources */,
+				0D9F81F63919A2668B18E93B /* [CP] Embed Pods Frameworks */,
+				BA1D4AA5BD322978C3B11853 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +209,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D9F81F63919A2668B18E93B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Banking UI Archive/Pods-Banking UI Archive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EC33A8BF0818287AB7A2666 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA1D4AA5BD322978C3B11853 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Banking UI Archive/Pods-Banking UI Archive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71C0AC6B2022EB3200AD6330 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C0AC8A2022EBB600AD6330 /* SBCalendarManager.swift in Sources */,
+				71C0AC962022FD2300AD6330 /* SBDropdown.swift in Sources */,
+				71C0AC8E2022EC7500AD6330 /* KVCalendarGlobals.swift in Sources */,
+				71C0AC892022EBB600AD6330 /* SBCalendarView.swift in Sources */,
+				71C0AC982022FD2300AD6330 /* SBStateLineView.swift in Sources */,
+				71C0AC8B2022EBB600AD6330 /* SBCalendarButton.swift in Sources */,
+				71C0AC972022FD2300AD6330 /* SBDropdownCell.swift in Sources */,
+				71C0AC912022F54200AD6330 /* UIColor+KV.swift in Sources */,
 				71C0AC752022EB3200AD6330 /* ViewController.swift in Sources */,
 				71C0AC732022EB3200AD6330 /* AppDelegate.swift in Sources */,
+				71C0AC8C2022EBB600AD6330 /* SBCalendarControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +407,7 @@
 		};
 		71C0AC822022EB3200AD6330 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC614B5E2625768BCC8B613 /* Pods-Banking UI Archive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +423,7 @@
 		};
 		71C0AC832022EB3200AD6330 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7B737F0D8A8D21D9DDCE70 /* Pods-Banking UI Archive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
